@@ -1,23 +1,20 @@
 * {
     box-sizing: border-box;
-    color: white;
-    margin: 0px 0px 0px 0px;
-    
+    color: black;
+    background-color: white;
 }
-
 .col-1 {width: 12.5%;}
 .col-2 {width: 25%;}
 .col-3 {width: 37.5%;}
 .col-4 {width: 50%;}
 .col-5 {width: 62.5%;}
-.col-6 {width: 75%; padding:0px; height:inherit;}
+.col-6 {width: 75%;}
 .col-7 {width: 87.5;}
 .col-8 {width: 100%;}
 
 [class*="col-"] {
     float: left;
     padding: 15px;
-    
 }
 
 /*
@@ -25,7 +22,6 @@ div{
     border: 1px solid black;
 }
 */
-
 .faded-1 {
     opacity: 0.5;
 }
@@ -38,30 +34,15 @@ div{
 
 .container {
     height: 100vh;
-    background-image: url("../background.jpg");
+    margin: 1vh 2w 1vh 2vw;
+    padding: .5vw .5vw .5vw .5vw;
 }
 
 .catcontainer{
-    height: 10.25vh;
-    padding-top:3vh;
-    padding-bottom:3vh;
+    margin: -1vh -1vw -1vh -1vw;
+    padding: .25vw .25vw .25vw .25vw;
 }
 
-#linkscontainer{
-    height:78vh;
-    padding: 0px;
-}
-
-#links{
-    position: relative;
-    top:7vh;
-}
-#topcenterer{
-    height:7vh;
-}
-#bottomcenterer{
-    height:7vh;
-}
 .name {
     text-align: center;
     width: 100%
@@ -78,42 +59,40 @@ div{
 }
 #bio{
     /* Max: 105 Min: 20*/
-    font-size: calc(50px + (72 - 30) * ((100vw - 300pt) / (1600 - 300)));
-    line-height:calc(50px + (65 - 30) * ((100vw - 300pt) / (1600 - 300)));
+    font-size: calc(30px + (120 - 30) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(30px + (120 - 30) * ((100vw - 300pt) / (1600 - 300)));
     font-family: 'Nunito', sans-serif;
 }
 
 #resume{
-    font-size: calc(40px + (43 - 20) * ((100vw - 300pt) / (1600 - 300)));
-    line-height:calc(40px + (43 - 20) * ((100vw - 300pt) / (1600 - 300)));
+    font-size: calc(20px + (80 - 20) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(20px + (80 - 20) * ((100vw - 300pt) / (1600 - 300)));
     font-family: 'Libre Baskerville', serif;
 }
 
 #coding{
     margin-left: -1vw;
-    font-size: calc(40px + (52 - 19) * ((100vw - 300pt) / (1600 - 300)));
-    line-height: calc(40px + (52 - 19) * ((100vw - 300pt) / (1600 - 300)));
+    font-size: calc(19px + (105 - 19) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(19px + (105 - 19) * ((100vw - 300pt) / (1600 - 300)));
     font-family: 'Nova Mono', monospace; 
 }
 
 #writing{
     margin-left: -1.5vw;
-    font-size: calc(50px + (74 - 30) * ((100vw - 300pt) / (1600 - 300)));
-    line-height: calc(50px + (62 - 30) * ((100vw - 300pt) / (1600 - 300)));
-    font-family: 'Berkshire Swash', cursive;
+    font-size: calc(30px + (135 - 30) * ((100vw - 300pt) / (1600 - 300)));
+    line-height:calc(36px + (135 - 36) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Kalam', cursive;
 }
 
 #portfolio{
     text-align: center;
-    width:100%;
-    font-size: calc(26px + (45 - 26) * ((100vw - 300pt) / (1600 - 300)));
+    font-size: calc(26px + (55 - 26) * ((100vw - 300pt) / (1600 - 300)));
     font-family: 'Libre Barcode 39 Text', cursive;
 }
 
 #hover{
     text-align: center;
-    width:100%;
-    font-size: calc(26px + (45 - 26) * ((100vw - 300pt) / (1600 - 300)));
+    font-size: calc(26px + (55 - 26) * ((100vw - 300pt) / (1600 - 300)));
     font-family: 'Libre Barcode 39 Text', cursive;
 }
 

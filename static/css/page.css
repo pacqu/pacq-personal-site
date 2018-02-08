@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    height:auto;
+}
+body{
+    background-image: url("../background1.jpg");
+}
+.col-1 {width: 12.5%;}
+.col-1-5 {width: 18.75%;
+	  padding: .2vh .5vw .2vh .5vw;}
+.col-2 {width: 25%;}
+.col-3 {width: 37.5%;}
+.col-4 {width: 50%;}
+.col-5 {width: 62.5%;}
+.col-6 {width: 75%;}
+.col-7 {width: 87.5;}
+.col-8 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/*
+div{
+    border: .1px solid black;
+}
+*/
+
+.faded-1 {
+    opacity: 0.5;
+}
+.faded-2 {
+    opacity: 0.25;
+}
+.faded-3 {
+    opacity: 0.125;
+}
+
+.row-edge {
+    height:calc(45px + (70 - 45) * ((100vw - 300pt) / (1600 - 300)));
+}
+.container{
+    height:100vh;
+}
+
+.row {
+    height:auto;
+    overflow: hidden
+}
+#contentcontainer{
+    margin: 2vh 2w 1vh 2vw;
+    /*background:rgba(0,0,0, .2)*/
+    border-radius: 25px;
+    background:linear-gradient(to top,rgba(0,0,0,0), rgba(0,0,0, .2));
+}
+
+.content{
+    font-family: 'Lora', sans-serif;
+    font-size: calc(5px + (25 - 5) * ((100vw - 300pt) / (1600 - 300)));
+}
+
+.title-1{
+    font-size:calc(15px + (55 - 15) * ((100vw - 300pt) / (1600 - 300)));
+}
+
+.title-2{
+    font-size:calc(10px + (30 - 10) * ((100vw - 300pt) / (1600 - 300)));
+}
+
+.spacer{
+    height: 1.3vh;
+}
+
+.spacer-small{
+    height: .8vh;
+}
+
+.centerer-1{
+    height: 28vh;
+}
+
+.centerer-2{
+    height: 28.5vh;
+}
+
+.name {
+    text-align: center;
+    width: 100%
+}
+
+.textcontainer {
+    position:fixed;
+    padding: 5px 5px 5px 5px;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-bottom: 5px;
+}
+
+#bio{
+    top:305px;
+    font-size: calc(5px + (35 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (35 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Nunito', sans-serif;
+}
+
+#bio-none{
+    top:305px;
+    font-size: calc(5px + (35 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (35 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Nunito', sans-serif;
+    opacity: 0.5;
+}
+
+#bio-alt{
+    top:305px;
+    font-size: calc(5px + (37 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (37 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Nunito', sans-serif;
+}
+
+#bio-alt-none{
+    top:305px;
+    font-size: calc(5px + (37 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (37 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Nunito', sans-serif;
+    opacity: 0.5;
+}
+
+#resume{
+    top:342px;
+    font-size: calc(5px + (23 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (23 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Libre Baskerville', serif;
+}
+
+#resume-none{
+    top:342px;
+    font-size: calc(5px + (23 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (23 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Libre Baskerville', serif;
+    opacity: 0.5;
+}
+
+#resume-alt{
+    top:343px;
+    font-size: calc(5px + (23 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (23 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Libre Baskerville', serif;
+}
+
+#resume-alt-none{
+    top:343px;
+    font-size: calc(5px + (23 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (23 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Libre Baskerville', serif;
+    opacity: 0.5;
+}
+
+#coding{
+    top:372.5px;
+    margin-left: -.5vw;
+    font-size: calc(5px + (30 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (20 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Nova Mono', monospace; 
+}
+
+#coding-none{
+    top:372.5px;
+    margin-left: -.5vw;
+    font-size: calc(5px + (30 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (20 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Nova Mono', monospace;
+    opacity: 0.5;
+}
+
+#coding-alt{
+    top:372.5px;
+    margin-left: -.5vw;
+    font-size: calc(5px + (30 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (20 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Nova Mono', monospace; 
+}
+
+#coding-alt-none{
+    top:372.5px;
+    margin-left: -.5vw;
+    font-size: calc(5px + (30 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height: calc(5px + (20 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Nova Mono', monospace;
+    opacity: 0.5;
+}
+
+#writing{
+    top:402px;
+    margin-left: -.3vw;
+    font-size: calc(5px + (38 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height:calc(7px + (35 - 7) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#writing-none{
+    top:402px;
+    margin-left: -.3vw;
+    font-size: calc(5px + (38 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height:calc(7px + (37 - 7) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Berkshire Swash', cursive;
+    opacity: 0.5;
+}
+
+#writing-alt{
+    top:402px;
+    margin-left: -.5vw;
+    font-size: calc(5px + (36 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height:calc(7px + (37 - 7) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#writing-alt-none{
+    top:402px;
+    margin-left: -.5vw;
+    font-size: calc(5px + (36 - 5) * ((100vw - 300pt) / (1600 - 300)));
+    line-height:calc(7px + (37 - 7) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Berkshire Swash', cursive;
+    opacity: 0.5;
+}
+
+#portfolio{
+    /*position:fixed;
+    bottom:.1px;
+    width:100%;*/
+    text-align: center;
+    font-size: calc(35px + (55 - 35) * ((100vw - 300pt) / (1600 - 300)));
+    line-height:calc(35px + (75 - 35) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Libre Barcode 39 Text', cursive;
+    /*background-image: url("../background1upsidedown.jpg");*/
+    
+}
+
+#hover{
+    position:fixed;
+    padding-top:8px;
+    width:100%;
+    text-align: center;
+    font-size: calc(35px + (55 - 35) * ((100vw - 300pt) / (1600 - 300)));
+    line-height:calc(35px + (60 - 35) * ((100vw - 300pt) / (1600 - 300)));
+    font-family: 'Libre Barcode 39 Text', cursive;
+    background-image: url("../background1.jpg");
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
